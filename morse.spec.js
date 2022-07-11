@@ -35,8 +35,8 @@ it (" should convert "" to undefined", () =>{
 });
 
 
-// test what happens when you input "hello"
-// test what happens when you input "123"
-// test what happens when you input "Holly123"
-// test what happens when you input " "
-// test what happens when you input ""
+// test what happens when  input "hello"
+// test what happens when  input "123"
+// test what happens when  input "Holly123"
+// test what happens when  input " "
+// test what happens when  input ""
