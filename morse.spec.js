@@ -4,4 +4,6 @@
 
 import {expect, it } from "@jest/globals";
 import { morseCode } from "./morse";
+import { pureFunction } from "./morse";
+
 
