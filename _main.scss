@@ -21,4 +21,23 @@
   text-align: center;
 }
 
+.main__button{
+  background-color: rgb(188, 106, 188);
+  border-radius: 10px;
+  width: 29%;
+}
+
+@media screen and (min-width: 768px) {
+  .main{
+    height: 60%;
+    width: 100%;
+  }
+
+  .main__button{
+    width: 15%;
+  }
+}
+  
+
+
 
