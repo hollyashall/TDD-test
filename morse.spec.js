@@ -3,8 +3,10 @@
 //expect and it
 
 import {expect, it } from "@jest/globals";
-import { morseCode } from "./morse";
-import { translateEnglishToMorse } from "./morse";
+// import { morseCode } from "./morse";
+// import { translateEnglishToMorse } from "./morse";
+import { morseCode, translateEnglishToMorse } from "./morse.js";
+
 
 
 it ("should convert hello to .... . .-.. .-.. ---" , () => {
@@ -17,8 +19,20 @@ it ("should convert 123 to . _ _ _ _ . . _ _ _ . . . _ _" , () => {
   expect(result).toBe(". _ _ _ _ . . _ _ _ . . . _ _")
   });
   
+it (" should convert Holly123 to undefined", () =>{
+  const result = translateEnglishToMorse("Holly123");
+  expect(result).toBe("undefined")
+});
 
+it (" should convert "" to undefined", () =>{
+  const result = translateEnglishToMorse(" ");
+  expect(result).toBe("undefined")
+});
 
+it (" should convert "" to undefined", () =>{
+  const result = translateEnglishToMorse("");
+  expect(result).toBe("undefined")
+});
 
 
 // test what happens when you input "hello"
